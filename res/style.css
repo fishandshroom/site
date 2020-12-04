@@ -7,9 +7,10 @@ body{
     font-size: 14pt;
 }
 html{
-    background-image: url('background.jpg');
+    background-image: url('background.webp');
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 table{
     border-collapse: collapse;
@@ -27,22 +28,29 @@ table tr td{
 }
 .nav-table{
     width:100%;
-    
 }
 .nav-table tr td{
     text-align: center;
     background-color: #0047ab;
     color:white;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width:20%;
+}
+.nav-table tr td a{
+    text-decoration: none;
+    color:white;
 }
 .nav-table tr td:hover{
-    background-color:white;
-    color:black;
+    background-color:black;
 }
 .header{
     height:100px;
     padding:10px;
+    background-image: url('header.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
 }
 .content{
     padding:10px;
@@ -55,4 +63,11 @@ table tr td{
     padding:10px;
     background-color: #0047ab;
     color:white;
+}
+
+.image-content{
+    max-width:50%;
+    border:2px solid black;
+    display:block;
+    margin:0 auto;
 }
